@@ -1,4 +1,7 @@
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
+
+// 🌎 Project imports:
 import 'package:todo_chat/home/home_screen.dart';
 
 class MyApp extends StatelessWidget {

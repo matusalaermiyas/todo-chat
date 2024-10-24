@@ -1,7 +1,13 @@
+// 🎯 Dart imports:
 import 'dart:async';
 
-import 'package:firebase_core/firebase_core.dart';
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
+
+// 📦 Package imports:
+import 'package:firebase_core/firebase_core.dart';
+
+// 🌎 Project imports:
 import 'package:todo_chat/firebase_options.dart';
 import 'package:todo_chat/my_app.dart';
 
