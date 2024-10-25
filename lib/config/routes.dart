@@ -3,7 +3,7 @@ import 'package:todo_chat/auth/signin_screen.dart';
 import 'package:todo_chat/auth/signup_screen.dart';
 import 'package:todo_chat/home/home_screen.dart';
 
-final routes = GoRouter(initialLocation: '/', routes: [
+final routes = GoRouter(initialLocation: SigninScreen.url, routes: [
   GoRoute(
     path: HomeScreen.url,
     builder: (context, state) => const HomeScreen(),
