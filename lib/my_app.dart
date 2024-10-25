@@ -1,5 +1,6 @@
 // 🐦 Flutter imports:
 import 'package:flutter/material.dart';
+import 'package:toastification/toastification.dart';
 import 'package:todo_chat/config/routes.dart';
 
 class MyApp extends StatelessWidget {
@@ -7,18 +8,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
-      title: "Todo Chat",
-      routerConfig: routes,
+    return ToastificationWrapper(
+      child: MaterialApp.router(
+        title: "Todo Chat",
+        routerConfig: routes,
+        theme: ThemeData(fontFamily: 'Noto'),
+        debugShowCheckedModeBanner: false,
+      ),
     );
-
-    // return MaterialApp(
-    //   title: 'Flutter Demo',
-    //   theme: ThemeData(
-    //     colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-    //     useMaterial3: true,
-    //   ),
-    //   home: const LoginScreen(),
-    // );
   }
 }
