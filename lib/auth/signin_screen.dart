@@ -1,6 +1,11 @@
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
+
+// 📦 Package imports:
 import 'package:go_router/go_router.dart';
 import 'package:line_icons/line_icons.dart';
+
+// 🌎 Project imports:
 import 'package:todo_chat/auth/auth_controller.dart';
 import 'package:todo_chat/auth/signup_screen.dart';
 import 'package:todo_chat/common/widgets/auth_button.dart';

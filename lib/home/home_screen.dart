@@ -1,6 +1,10 @@
 // 🐦 Flutter imports:
 import 'package:flutter/material.dart';
+
+// 📦 Package imports:
 import 'package:line_icons/line_icons.dart';
+
+// 🌎 Project imports:
 import 'package:todo_chat/chat/chat_screen.dart';
 import 'package:todo_chat/todo/todo_screen.dart';
 

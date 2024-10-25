@@ -1,6 +1,10 @@
 // 🐦 Flutter imports:
 import 'package:flutter/material.dart';
+
+// 📦 Package imports:
 import 'package:toastification/toastification.dart';
+
+// 🌎 Project imports:
 import 'package:todo_chat/config/routes.dart';
 
 class MyApp extends StatelessWidget {

@@ -1,4 +1,7 @@
+// 📦 Package imports:
 import 'package:go_router/go_router.dart';
+
+// 🌎 Project imports:
 import 'package:todo_chat/auth/signin_screen.dart';
 import 'package:todo_chat/auth/signup_screen.dart';
 import 'package:todo_chat/home/home_screen.dart';
